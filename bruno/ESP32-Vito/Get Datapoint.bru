@@ -1,0 +1,22 @@
+meta {
+  name: Get Datapoint
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/get?dp={{dpKey}}
+  body: none
+  auth: inherit
+}
+
+params:query {
+  dp: {{dpKey}}
+}
+
+vars:pre-request {
+  dpKey: vorlaufSollTempM3
+  dpKey: warmwasserSollTemp
+  ~dpKey: aussenTemp
+  ~dpKey: vorlaufSollTempM2
+}

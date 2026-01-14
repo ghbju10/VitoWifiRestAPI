@@ -1,0 +1,31 @@
+meta {
+  name: Set Datapoint
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/set?dp={{dpKey}}
+  body: json
+  auth: inherit
+}
+
+params:query {
+  dp: {{dpKey}}
+}
+
+body:json {
+  {
+  "value": {{dpValue}}
+  }
+}
+
+vars:pre-request {
+  dpValue: 50
+  dpKey: warmwasserSollTemp
+  ~dpKey: raumSollTempM2
+  ~dpKey: betriebsartM3
+  ~dpValue: 2
+  ~dpKey: raumSollTempM3
+  ~dpKey: betriebsartM2
+}

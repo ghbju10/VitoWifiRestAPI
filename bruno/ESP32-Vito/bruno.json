@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ESP32-Vito",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
