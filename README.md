@@ -121,7 +121,7 @@ set:warmwasserSollTemp:50
 
 1. Repository klonen:
 ```bash
-git clone https://github.com/<user>/<repo>.git
+git clone https://github.com/ghbju10/VitoWifiRestAPI
 ```
 2. Projekt in VS Code öffnen  
 3. PlatformIO initialisiert die Umgebung automatisch
@@ -192,11 +192,6 @@ Die Datei `Configuration.h` ist bewusst **nicht Teil des Git-Repositories**, da 
 ## ⚠️ Hinweis
 ⚠️ Schreibzugriffe auf Heizungsparameter können Fehlfunktionen verursachen.  
 Nur Datapoints freigeben, deren Bedeutung bekannt ist.
-
----
-
-## 📜 Lizenz
-Open Source – Lizenz bitte ergänzen.
 
 ---
 
