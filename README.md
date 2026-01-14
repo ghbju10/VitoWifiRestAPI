@@ -189,6 +189,17 @@ Die Datei `Configuration.h` ist bewusst **nicht Teil des Git-Repositories**, da 
 
 ---
 
+## Hardware
+- 1x ESP32 devkit v1
+- 1x IR SFH487-2
+- 1x IR SFH309FA
+- 1x Widerstand 10kOhm
+- 1x Widerstand 180 Ohm
+
+Beispiel: https://github.com/openv/openv/wiki/Bauanleitung-ESP32-Adafruit-Feather-Huzzah32-and-Proto-Wing
+
+---
+
 ## ⚠️ Hinweis
 ⚠️ Schreibzugriffe auf Heizungsparameter können Fehlfunktionen verursachen.  
 Nur Datapoints freigeben, deren Bedeutung bekannt ist.
